@@ -14,8 +14,8 @@ public class Demo1Application {
 		SpringApplication.run(Demo1Application.class, args);
 	}
 
-	@GetMapping("/hello")
+@GetMapping("/hello")
 	public String showMessage(){
-		return "Welcome to RestAPIs to Njoy the Page";
+		return "Welcome to RestAPIs Njoy the Page";
 }
 }
